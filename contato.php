@@ -12,20 +12,19 @@ include_once "templates/header.php";
             <textarea name="mensagem-usuario" placeholder="Digite uma mensagem" rows="7" cols="60"></textarea>
             <input type="submit" value="Enviar">
         </form>
-    </div>
-    <div class="contact-blog">
-        <div>
-            <h2>Contato</h2>
-            <span>email@email.com.br</span>
+        <div class="contact-blog">
+            <div>
+                <h2>Contato</h2>
+                <span>email@email.com.br</span>
+            </div>
+            <div>
+                <h2>Localização</h2>
+                <span>Jundiaí - São Paulo - Brasil</span>
+            </div>
+            <div class="img-contact-blog">
+                <img src="img/foto-criador-blog.jpg" alt="Foto do Criador do Blog">
+            </div>
         </div>
-        <div>
-            <h2>Localização</h2>
-            <span>Jundiaí - São Paulo - Brasil</span>
-        </div>
-        <div class="img-contact-blog">
-            <img src="img/foto-criador-blog.jpg" alt="Foto do Criador do Blog">
-        </div>
-    </div>
 </main>
 
 <?php
